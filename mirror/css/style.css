@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*
+:root{
+    --maingreen: #419e9d;
+  }
+  これやると color: var(--maingray);で通るし一遍に色変えれるから地味に便利
+ */
+
+body {
+  background: whitesmoke;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.graphic {
+  width: 100%;
+  height: auto;
+  position: center;
+  
+}
+
+.graphic-img-wrap {
+  width: 100%;
+  height: 100%;
+  
+}
+
+.graphic-img-wrap img {
+  width: 100%;
+  height: 100%;
+
+}
+
+.button-img-wrap {
+  width: 100%;
+  height: 100%;
+}
+.button-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
